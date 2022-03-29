@@ -1,7 +1,33 @@
+/* Custom Properties */
+:root {
+  --primary-ver-dark-magenta: hsl(300, 43%, 22%);
+  --primary-soft-pink: hsl(333, 80%, 67%);
+  --neutral-dark-grayish-magenta: hsl(303, 10%, 53%);
+  --neutral-light-grayish-magenta: hsl(300, 24%, 96%);
+  --neutral-white: hsl(0, 0%, 100%);
+  --font-family: "Spartan", sans-serif;
+}
+
 /* Decent Defaults */
 
 img,
 video {
   width: 100%;
   height: auto;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Mobile Only Styles */
+@media (max-width: 47.9375em) {
+}
+
+/* Desktop Only Styles */
+@media (min-width: 48em) {
 }
