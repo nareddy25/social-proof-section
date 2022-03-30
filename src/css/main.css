@@ -8,6 +8,12 @@
   --font-family: "Spartan", sans-serif;
 }
 
+.bg-img {
+  background-image: url(./../images/bg-pattern-top-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /* Decent Defaults */
 
 img,
@@ -30,4 +36,7 @@ video {
 
 /* Desktop Only Styles */
 @media (min-width: 48em) {
+  .bg-img {
+    background-image: url(./../images/bg-pattern-top-desktop.svg);
+  }
 }
